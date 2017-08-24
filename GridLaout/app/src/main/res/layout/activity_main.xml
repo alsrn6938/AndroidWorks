@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bit.gridlaout.MainActivity"
+    android:background="#391717"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="#542054"
+        >
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="50dp"
+            android:gravity="right"
+            android:text="0"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="3"
+        >
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:text="DELL" />
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_gravity="fill_horizontal"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_gravity="fill_horizontal"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_gravity="fill_horizontal"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn_plus"
+            android:layout_gravity="fill_horizontal"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_gravity="fill_horizontal"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_gravity="fill_horizontal"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_gravity="fill_horizontal"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btn_minus"
+            android:layout_gravity="fill_horizontal"
+            android:text="-" />
+
+        <Button android:text="7"
+            android:id="@+id/btn_7"/>
+
+        <Button android:text="8"
+            android:id="@+id/btn_8"/>
+
+        <Button android:text="9"
+            android:id="@+id/btn_9"/>
+
+        <Button
+            android:layout_gravity="fill_horizontal"
+            android:text="*"
+            android:id="@+id/btn_times"/>
+
+        <Button android:text="."
+            android:id="@+id/btn_dot"/>
+
+        <Button android:text="0"
+            android:id="@+id/btn_0"/>
+
+        <Button android:text="="
+            android:id="@+id/btn_eq"/>
+
+        <Button android:text="/"
+            android:id="@+id/btn_div"
+            android:layout_gravity="fill_horizontal"/>
+
+
+    </GridLayout>
+
+</LinearLayout>

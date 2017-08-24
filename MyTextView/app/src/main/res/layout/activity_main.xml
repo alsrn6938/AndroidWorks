@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bit.mytextview.MainActivity">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="#ff0000"
+        android:drawableLeft="@drawable/ic_android_black_24dp"
+        android:drawableTint="#bbd425d1"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:text="Hello"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|end"
+        android:background="#ffaacc"
+        android:text="Hello"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:background="#ffaacc"
+        android:text="alsrn6938@naver.com"
+        android:autoLink="email"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+
+        android:background="#ffaacc"
+        android:autoLink="email|web|phone"
+        android:text="naver.com \n alsrn6938@naver.com \n 010-1111-1111"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
